@@ -17,7 +17,7 @@ quorum, reconfiguring the ProcessGroups and restoring checkpoint state when
 recovering.
 
 This uses wrapper classes to wrap the standard PyTorch Optimizer and Module
-classes to provide fault tolerance. These wrappers indented to add fault
+classes to provide fault tolerance. These wrappers intend to add fault
 tolerance with minimal changes to the users modeling code and training loop.
 
 This is designed to work with the standard PyTorch DistributedDataParallel module
